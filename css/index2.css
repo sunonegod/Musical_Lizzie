@@ -1,0 +1,148 @@
+html{
+    height: 2500px;
+    background-image: url("img/ml_pg.jpg");
+    background-repeat: no-repeat;
+    background-color: #0c021d;
+}
+#main_header{
+    
+    margin: 0;
+    position: relative;
+  }
+  #main_header > #title{
+    position: absolute;
+    left: 10px; top: 0px; 
+  }
+  #main_header > #main_gnb{
+    position: absolute;
+    right: 40px; top:40px;
+  }
+  #main_gnb > ul {overflow: hidden;}
+  #main_gnb > ul > li {float: left;}
+  #main_gnb > ul > li > a {
+    display: block;
+    padding: 2px 15px;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+  .logo{
+    margin:15px;
+    padding: 5px;
+    /* border:solid 1px red; */
+  }
+  #gnb_ul{
+    list-style: none;
+    font-size: 20px;
+    font-family: Gotu;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #ab0101;
+  }
+  .line{
+    padding: 0;
+    margin-right: 0;
+    /* border: solid 1px red; */
+    margin-left: 890px;
+    margin-top: 1130px;
+    position: absolute;
+  }
+  h3{
+    color: white;
+    font-size: 35px;
+    font-family: Apple neo;
+    text-align: center;
+  }
+  h5{
+    color: white;
+    font-size: 25px;
+    font-family: Apple neo;
+    text-align: center;
+  }
+  h1{
+    color: #ab0101;
+    font-size: 60px;
+    font-family: Apple neo;
+    text-align: center;
+  }
+  #article{
+    margin-top: 250px;
+    margin-left: 410px;
+    position: absolute;
+  }
+  #article2{
+    margin-top: 400px;
+    margin-left: 490px;
+    position: absolute;
+  }
+  #article3{
+    margin-top: 550px;
+    margin-left: 495px;
+    position: absolute;
+  }
+  #article4{
+    margin-top: 700px;
+    margin-left: 435px;
+    position: absolute;
+  }
+  p{
+    color: white;
+    font-size: 16px;
+    font-family: Apple neo;
+  }
+  .first{
+    position: absolute;
+    margin-top: 1135px;
+    margin-left: 950px;
+  }
+  .second{
+    position: absolute;
+    margin-top: 1470px;
+    margin-left: 320px;
+  }
+  .third{
+    position: absolute;
+    margin-top: 1800px;
+    margin-left: 950px;
+  }
+  .last{
+    position: absolute;
+    margin-top: 2133px;
+    margin-left: 480px;
+  }
+  .second_img{
+    position: absolute;
+    margin-top: 1370px;
+    margin-left: 950px;
+  }
+  .third_img{
+    position: absolute;
+    margin-top: 1710px;
+    margin-left: 490px;
+  }
+  .last_img{
+    position: absolute;
+    margin-top: 2040px;
+    margin-left: 950px;
+  }
+  footer{
+    position: absolute;
+    width: 1776px; margin: 0 auto;
+    margin-top: 2500px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* border: solid 1px white; */
+    text-align: center;
+    background-color: black;
+  }
+  footer ul{
+    list-style: none;
+  }
+
+
+  

@@ -1,0 +1,92 @@
+html{
+    background-color: #191212;
+    height: 3000px;
+    overflow: hidden;
+}
+  #main_header{
+    margin: 0;
+    position: relative;
+  }
+  #main_header > #title{
+    position: absolute;
+    left: 10px; top: 0px; 
+  }
+  #main_header > #main_gnb{
+    position: absolute;
+    right: 40px; top:40px;
+  }
+  #main_gnb > ul {overflow: hidden;}
+  #main_gnb > ul > li {float: left;}
+  #main_gnb > ul > li > a {
+    display: block;
+    padding: 2px 15px;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+
+  .logo{
+    margin:15px;
+    padding: 5px;
+    
+  }
+  #gnb_ul{
+    list-style: none;
+    font-size: 20px;
+    font-family: Gotu;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #ab0101;
+  }
+  #cage{
+    opacity: 90%;
+    margin-left: -55px;
+    margin-top: 67px;
+    position: absolute;
+  }
+  #synopsis{
+    color:white;
+    margin: 0;
+    margin-left: 370px;
+    padding-top: 300px;
+  }
+  #synopsis > #h1{
+    font-size: 50px;
+    font-family: Y유니버스;
+    margin-left: 5px;
+  }
+  #synopsis > #p{
+    padding-top: 130px;
+    font-family: Y유니버스;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-left: 30px;
+  }
+  .bird{
+    margin-top: -500px;
+    margin-left: 150px;
+    opacity: 90%;
+    display: block;
+  }
+  footer{
+    position: absolute;
+    width: 1800px; margin: 0 auto;
+    margin-top: 450px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* border: solid 1px white; */
+    background-color: black;
+    text-align: center;
+    list-style: none;
+  }
+  footer ul{
+    list-style: none;
+  }
+
+  

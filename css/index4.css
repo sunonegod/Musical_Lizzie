@@ -1,0 +1,242 @@
+html{
+  height: 3600px;
+  background-color: #191212;
+  background-image: url(img/BG.jpg);
+  background-repeat: no-repeat;
+}
+#main_header{
+  margin: 0;
+  position: relative;
+}
+#main_header > #title{
+  position: absolute;
+  left: 10px; top: 0px; 
+}
+#main_header > #main_gnb{
+  position: absolute;
+  right: 40px; top:40px;
+}
+#main_gnb > ul {overflow: hidden;}
+#main_gnb > ul > li {float: left;}
+#main_gnb > ul > li > a 
+{
+  display: block;
+  padding: 2px 15px;
+}
+*{
+  margin:0;
+  padding:0;
+}
+.logo{
+  margin:15px;
+  padding: 5px;
+  /* border:solid 1px red; */
+}
+#gnb_ul{
+  list-style: none;
+  font-size: 20px;
+  font-family: Gotu;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #ab0101;
+}
+p{
+  color: #ba7d7d;
+  font-size: 20px;
+}
+h1{
+  color: #ba7d7d;
+  font-size: 50px;
+}
+h4{
+  color: #ba7d7d;
+  font-size: 25px;
+}
+.img1{
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 255px;
+  /* border: solid 1px red;    */
+}
+.img1 img{
+  width: 400px;
+  padding-right: 30px;
+  /* border: solid 1px red; */
+}
+.produce{
+  position: absolute;
+  text-align: center;
+  font-family: Y유니버스;
+  line-height: 40px;
+}
+.img2{
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 470px;
+}
+.img2 img{
+  width: 400px;
+  padding-right: 30px;
+  /* border: solid 1px red; */
+}
+#lizzie{
+  width: 650px;
+  margin-top: 170px;
+  margin-left: 565px;
+  position: absolute;
+  /* border: solid 1px red; */
+}
+#emma{
+  width: 450px;
+  margin-top: 960px;
+  margin-left: 665px;
+  /* border: solid 1px red; */
+  position: absolute;
+}
+.img3{
+  position: absolute;
+  margin-top: 1890px;
+  margin-left: 255px;
+  /* border: solid 1px red; */
+}
+.img3 img{
+  width: 400px;
+  padding-right: 30px;
+  /* border: solid 1px red; */
+}
+.img4{
+  position: absolute;
+  margin-top: 2675px;
+  margin-left: 470px;
+  /* border: solid 1px red; */
+}
+.img4 img{
+  width: 400px;
+  padding-right: 30px;
+  /* border: solid 1px red; */
+}
+#alice{
+  width: 350px;
+  margin-top: 1750px;
+  margin-left: 715px;
+  /* border: solid 1px red; */
+  position: absolute;
+}
+#bridget{
+  width: 500px;
+  margin-top: 2540px;
+  margin-left: 630px;
+  /* border: solid 1px red; */
+  position: absolute;
+}
+#cast{
+  position: absolute;  
+  /* border: solid 1px red; */
+  color: #ba7d7d;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+  margin-left: 420px;
+  margin-top: 880px;
+}
+#cast2{
+  position: absolute;  
+  /* border: solid 1px red; */
+  color: #ba7d7d;
+  margin-left: 860px;
+  margin-top: 880px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+#cast3{
+  position: absolute;  
+  /* border: solid 1px red; */
+  color: #ba7d7d;
+  margin-left: 1290px;
+  margin-top: 880px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+#cast4{
+  position: absolute;  
+  color: #ba7d7d;
+  margin-left: 630px;
+  margin-top: 1670px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+#cast5{
+  position: absolute;  
+  color: #ba7d7d;
+  margin-left: 1075px;
+  margin-top: 1670px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+#cast6{
+  position: absolute;  
+  color: #ba7d7d;
+  margin-left: 420px;
+  margin-top: 2460px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+#cast7{
+  position: absolute;  
+  color: #ba7d7d;
+  margin-left: 860px;
+  margin-top: 2460px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+#cast8{
+  position: absolute;  
+  color: #ba7d7d;
+  margin-left: 1290px;
+  margin-top: 2460px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+#cast9{
+  position: absolute;  
+  color: #ba7d7d;
+  margin-left: 630px;
+  margin-top: 3245px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+#cast10{
+  position: absolute;  
+  color: #ba7d7d;
+  margin-left: 1065px;
+  margin-top: 3245px;
+  width: 70px;
+  font-family: Y유니버스;
+  font-size: 25px;
+}
+footer{
+  position: absolute;
+  width: 1776px; margin: 0 auto;
+  margin-top: 3540px;
+  box-sizing: border-box;
+  padding: 10px;
+  /* border: solid 1px white; */
+  text-align: center;
+  background-color: black;
+}
+footer ul{
+  list-style: none;
+}
+

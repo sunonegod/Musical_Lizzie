@@ -1,0 +1,90 @@
+     html{
+       height: 2000px;
+       background-image: url("img/main_pg1.jpg");
+       background-repeat: no-repeat ;
+       background-color: #ab0101;
+       overflow: hidden;
+     }
+     #main_header{
+        margin: 0;
+        position: relative;
+      }
+      #main_header > #title{
+        position: absolute;
+        left: 10px; top: 0px; 
+      }
+      #main_header > #main_gnb{
+        position: absolute;
+        right: 40px; top:40px;
+      }
+      #main_gnb > ul {overflow: hidden;}
+      #main_gnb > ul > li {float: left;}
+      #main_gnb > ul > li > a {
+        display: block;
+        padding: 2px 15px;
+      }
+      #main_section{
+        width: 1920;
+        height: auto;
+      }
+      #main_section > #main_img{
+        margin-left: 300px;
+        margin-top: 110px;
+        z-index: auto;
+        position: relative;
+        
+      }
+      footer{
+        height: 100px;
+        margin-bottom: 10px;
+      }
+      #p_section{
+        font-family: 바른바탕OTFpro; 
+        font-weight: 700;
+        font-size: 190px;
+        color: white;
+        margin-top: 420px;
+        margin-left: 606px;
+        position: absolute;
+      }
+      #p2_section{
+        font-family: 바른바탕OTFpro;
+        font-size: 45px;
+        color: #ffffff;
+        margin-left: 718px;
+        margin-top: 620px;
+        position: absolute;
+        
+      }
+    
+      *{
+        margin:0;
+        padding:0;
+      }
+      
+      .logo{
+        margin:15px;
+        padding: 5px;
+        
+      }
+      #gnb_ul{
+        list-style: none;
+        font-size: 20px;
+        font-family: Gotu;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        color: black;
+      }
+      #h1_num{
+        font-size: 120px;
+        font-weight: bold;
+        font-family: Arial;
+        color: #d9d8da;
+        opacity: 50%;
+      }
+
+     

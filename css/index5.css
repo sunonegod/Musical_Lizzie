@@ -1,0 +1,80 @@
+html{
+  height: 2000px;
+}
+#main_header{
+    margin: 0;
+    position: relative;
+  }
+  #main_header > #title{
+    position: absolute;
+    left: 10px; top: 0px; 
+  }
+  #main_header > #main_gnb{
+    position: absolute;
+    right: 40px; top:40px;
+  }
+  #main_gnb > ul {overflow: hidden;}
+  #main_gnb > ul > li {float: left;}
+  #main_gnb > ul > li > a {
+    display: block;
+    padding: 2px 15px;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color: #191212;
+    
+    overflow: hidden;
+  }
+  .logo{
+    margin:15px;
+    padding: 5px;
+    /* border:solid 1px red; */
+  }
+  #gnb_ul{
+    list-style: none;
+    font-size: 20px;
+    font-family: Gotu;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #ab0101;
+  }
+  #number{
+      margin-top: 140px;
+      margin-left: 310px;
+      font-family: 바른바탕OTFpro;
+      font-size: 50px;
+      font-weight: 700;
+      font-style: italic;
+      color: white;
+      position: absolute;
+  }
+  .h1{
+    width: 1100px;
+    padding: 30px;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  footer{
+    position: absolute;
+    width: 1800px; margin: 0 auto;
+    margin-top: 984px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* border: solid 1px white; */
+    background-color: black;
+    text-align: center;
+    list-style: none;
+  }
+  footer ul{
+    list-style: none;
+  }
+
+
+  
